@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    font-size:18px;
+    color: #2D3748;
+    font-family: - -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+header {
+    display: flex;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #63b3ED;
+    height: 50vh;
+}
+header > p, h1{
+    color:#FFFFFF
+    }
+main{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:2;
+    margin-left: 100px;
+}
+main p{
+    padding: 10px;
+}
+header h1{
+    font-size:44px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header img{
+    width:30vh;
+    height: 30vh;
+    border-radius:70%;
+}
+aside ul{
+    list-style-type:none;
+}
+
+aside{
+        margin-right: 100px;
+        margin-left:150px;
+}
+footer{
+    grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start:3;
+    background-color: #2C5282;
+}
+footer p{
+    color: #FFFFFF;
+    padding-left: 150px;
+    padding-top:50px;
+    padding-bottom: 30px;
+}
+#s1 h3{
+    color: #000000;
+    padding-left: 15px;
+    font-family: Georgia,'Times New Roman', Times, serif;
+    background-color:#E2E8F0;
+}
+#s1 {
+    background-color:#E2E8F0;
+}
+#s2 a{
+    color: #4299E1;
+    text-decoration: none;
+    
+    }
+#s2 h3{
+    color: #48BB78;
+    padding-bottom: 10px;
+    padding-top:10px;
+   
+}
+#s3 a{
+    color: #4299E1;
+    text-decoration: none;
+}
+#s3 h3{
+    color: #48BB78;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+#s3 ul{
+    padding:0;
+    margin:0;
+}
+article h2{
+    font-size:35px;
+    color: #48BB78;
+    margin-bottom: 15px;
+}
+article h3{
+    color: #718096;
+    margin-bottom: 15px;
+}
+header img{
+      border-radius:50%;
+        width:25vh;
+        height:25vh;
+      }
+aside ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+aside{
+    margin-right: 120px;
+    margin-right: 120px;
+}
